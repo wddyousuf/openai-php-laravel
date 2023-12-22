@@ -9,11 +9,25 @@
             "email": "enunomaduro@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "wddyousuf/openai-php-client",
+                "version":"dev-main",
+                "source": {
+                    "url": "https://github.com/wddyousuf/openai-php-client.git",
+                    "type": "git",
+                    "reference":"main"
+                }
+            }
+        }
+    ],
     "require": {
         "php": "^8.1.0",
         "guzzlehttp/guzzle": "^7.8.1",
         "laravel/framework": "^9.46.0|^10.34.2|^11.0",
-        "openai-php/client": "dev-main"
+        "wddyousuf/openai-php-client": "dev-main",
     },
     "require-dev": {
         "laravel/pint": "^1.13.6",
