@@ -24,6 +24,7 @@
     },
     "autoload": {
         "psr-4": {
+            "OpenAI\\": "vendor/openai-php/client/src",
             "OpenAI\\Laravel\\": "src/"
         }
     },
